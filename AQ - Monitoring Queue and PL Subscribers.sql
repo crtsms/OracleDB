@@ -72,4 +72,4 @@ ORDER BY log_id DESC;
 SELECT u.username, sr.subscription_name, sr.location_name
   FROM dba_subscr_registrations sr, dba_users u
 WHERE u.user_id = sr.user#
-   AND sr.subscription_name LIKE '%EXAMPLE%';
+   AND sr.subscription_name LIKE '%EXAMPLE%' ;
